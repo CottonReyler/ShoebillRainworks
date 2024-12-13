@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Shoebill Rainworks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="rain"></div>
+    <header>
+        <h1>Shoebill Rainworks</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="ripple">Home</a></li>
+                <li><a href="games.html" class="ripple">Games</a></li>
+                <li><a href="contact.html" class="ripple">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <form action="mailto:shoebillrainworks@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shoebill Rainworks. All rights reserved.</p>
+    </footer>
+    <script src="rain.js"></script>
+</body>
+</html>
